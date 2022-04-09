@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+/*Color */
+/*Primary Color */
+/*Neutral Color */
+/*mixin */
+.container {
+  margin: 15rem 0 3rem 0;
+}
+
+@media (min-width: 42em) {
+  .container {
+    margin: 45rem 0 3rem 0;
+    padding: 0 6rem;
+  }
+}
+
+@media (min-width: 62em) {
+  .container {
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+  }
+}
+
+.container .logo_container {
+  margin-left: 1.5rem;
+}
+
+@media (min-width: 62em) {
+  .container .logo_container {
+    position: absolute;
+    left: 9%;
+    top: 5%;
+  }
+}
+
+.container .hero_container {
+  margin: 1rem 0;
+}
+
+@media (min-width: 42em) {
+  .container .hero_container {
+    margin: 2rem 0;
+  }
+}
+
+@media (min-width: 62em) {
+  .container .hero_container {
+    margin: 0;
+    width: 40%;
+  }
+}
+
+.container .context_container {
+  text-align: center;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+@media (min-width: 62em) {
+  .container .context_container {
+    width: 60%;
+    margin-top: 4%;
+    padding: 0 8.5rem;
+  }
+}
+
+.container .context_container h1 {
+  font-family: inherit;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  line-height: 3.5rem;
+}
+
+.container .context_container h1 .text-heading-highlight {
+  color: #ce9797;
+  font-weight: 300;
+}
+
+@media (min-width: 62em) {
+  .container .context_container h1 {
+    text-align: left;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 87em) {
+  .container .context_container h1 {
+    line-height: 4.5rem;
+    font-size: 4rem;
+  }
+}
+
+.container .context_container p {
+  line-height: 1.8rem;
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  color: #ce9797;
+}
+
+@media (min-width: 62em) {
+  .container .context_container p {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 87em) {
+  .container .context_container p {
+    font-size: 1.6rem;
+  }
+}
+
+.container .context_container form {
+  position: relative;
+  margin: 2rem 0;
+}
+
+.container .context_container form input {
+  background-color: transparent;
+  border: 1px solid #ce9797;
+  border-radius: 3.1rem;
+  font-size: 1rem;
+  padding: 0.9rem 1.8rem;
+  height: 3.4rem;
+  width: 100%;
+}
+
+@media (min-width: 87em) {
+  .container .context_container form input {
+    font-size: 1.2rem;
+  }
+}
+
+.container .context_container form button {
+  background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  border: none;
+  border-radius: 3.1rem;
+  cursor: pointer;
+  padding: 0.9rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 3.4rem;
+  width: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(135deg, white, #fff5f5);
+  font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  overflow-y: hidden;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1440px;
+  max-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

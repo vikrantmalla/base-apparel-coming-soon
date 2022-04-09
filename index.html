@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="logo_container">
+                <img src="images/logo.svg" alt="logo" />
+            </div>
+            <div class="hero_container">
+                <picture className="img-holder">
+                    <source media="(max-width: 480px)" srcset="images/hero-mobile.jpg" />
+                    <img src="images/hero-desktop.jpg" alt="hero-img" />
+                </picture>
+            </div>
+            <div class="context_container">
+                <h1>
+                    <span class="text-heading-highlight">We're</span> coming soon
+                </h1>
+                <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+                <form id="form">
+                    <input id="email" type="email" placeholder="Email Address" />
+                    <button>
+							<img src="images/icon-arrow.svg" alt="arrow" />
+					</button>
+                </form>
+
+            </div>
+        </div>
+    </main>
+    <!-- <div class="attribution">
+       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/vikrantmalla">Vikrant Malla</a>.
+    </div> -->
+</body>
+
+</html>
