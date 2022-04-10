@@ -136,12 +136,12 @@
   }
 }
 
-.container .context_container form {
+form {
   position: relative;
   margin: 2rem 0;
 }
 
-.container .context_container form input {
+form .form-control input {
   background-color: transparent;
   border: 1px solid #ce9797;
   border-radius: 3.1rem;
@@ -152,12 +152,40 @@
 }
 
 @media (min-width: 87em) {
-  .container .context_container form input {
+  form .form-control input {
     font-size: 1.2rem;
   }
 }
 
-.container .context_container form button {
+form .form-control small {
+  color: #ce9797;
+  font-weight: 600;
+  position: absolute;
+  bottom: -1.2rem;
+  left: 1.5rem;
+  visibility: hidden;
+  text-align: left;
+}
+
+form .form-control img {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  right: 7rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 1.2rem;
+}
+
+form .error small {
+  visibility: visible;
+}
+
+form .error img {
+  visibility: visible;
+}
+
+form button {
   background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
   border: none;
   border-radius: 3.1rem;
@@ -183,7 +211,6 @@ body {
   background-image: linear-gradient(135deg, white, #fff5f5);
   font-size: 1rem;
   font-family: "Josefin Sans", sans-serif;
-  overflow-y: hidden;
 }
 
 main {
